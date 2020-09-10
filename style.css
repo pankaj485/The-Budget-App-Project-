@@ -22,6 +22,12 @@ body {
   height: 100vh;
   font-weight: 400;
 }
+.intro h5 {
+  font-size: 10px;
+  text-align: justify;
+  width: 25%;
+  font-weight: 100;
+}
 
 .right {
   float: right;
@@ -39,8 +45,7 @@ body {
 
 .top {
   height: 40vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-    url(back.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
   background-size: cover;
   background-position: center;
   position: relative;
